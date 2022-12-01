@@ -1,0 +1,8 @@
+pytest==6.2.5
+pytest-mock
+pytest-cov
+moto
+pre-commit
+isort
+flake8
+mypy
