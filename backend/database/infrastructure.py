@@ -3,7 +3,7 @@ import aws_cdk.aws_dynamodb as dynamodb
 from constructs import Construct
 
 
-class Database(Construct):
+class Database(cdk.NestedStack):
     def __init__(
         self, scope: Construct, id_: str, *, dynamodb_billing_mode: dynamodb.BillingMode
     ):

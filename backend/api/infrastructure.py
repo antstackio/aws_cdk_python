@@ -5,9 +5,10 @@ import aws_cdk.aws_apigatewayv2_integrations_alpha as apigatewayv2_integrations_
 import aws_cdk.aws_lambda as lambda_
 import aws_cdk.aws_lambda_python_alpha as lambda_python_alpha
 from constructs import Construct
+from aws_cdk import App, CfnOutput, NestedStack, NestedStackProps, Stack
 
 
-class API(Construct):
+class API(NestedStack):
     def __init__(
         self,
         scope: Construct,

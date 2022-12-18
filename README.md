@@ -1,4 +1,4 @@
-
+Folder Structure Ref: https://aws.amazon.com/blogs/developer/recommended-aws-cdk-project-structure-for-python-applications/
 # Welcome to your CDK Python project!
 
 You should explore the contents of this project. It demonstrates a CDK app with an instance of a stack (`aws_cdk_python_stack`)
@@ -63,3 +63,9 @@ command.
  * `cdk docs`        open CDK documentation
 
 Enjoy!
+
+
+//resource limit, per-module stack
+// url's are not encrypted
+// single lambda vs multiple lambda, api request validation
+// seprate db/ssm/congnito into another stack, generic stack
